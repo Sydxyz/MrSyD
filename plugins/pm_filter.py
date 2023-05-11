@@ -1006,6 +1006,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
                     InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
                 ],[
+                    InlineKeyboardButton('⌘ Bᴀᴄᴋ-Uᴩ CʜΔɴɴΞL', url='https://t.me/nt_Backup/5'),
+
+                    InlineKeyboardButton('✰ Mᴀɪɴ Cʜᴀɴɴᴇʟ', url='https://t.me/bot_cracker')
+
+                ],[
+
+                    InlineKeyboardButton('✧ GʀᴏUᴩ', url='https://t.me/+0P4lGV1P6VcxYzll'),
+
+                    InlineKeyboardButton('♤ BᴏΓꜱ', url='https://t.me/Bot_Cracker/17'),
+
+                    InlineKeyboardButton('⚝ Mᴏᴠɪᴇꜱ 𝙲ʜᴀɴɴᴇʟ', url='https://t.me/Mod_MoviezX')
+
+                ],[ 
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                   ]]
         
