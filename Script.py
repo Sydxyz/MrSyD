@@ -100,7 +100,8 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
+★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
+♛    OᴡɴΞʀ   : <a href=https://t.me/syd_xyz> 8</a> </b>"""
 
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
@@ -151,7 +152,7 @@ Nᴀᴍᴇ - {}"""
 ┣⪼ DᴏБ : ɢᴜᴇꜱꜱ ᴀɢΔɪɴ 🤭🫥
 ┣⪼ ʊꜱᴇʀ ɴαᴍΞ : @Syd_Xyz
 ┣⪼ PΞЯᴍΔɴΣΠT Dᴍ ʟIηк : <a href=https://t.me/syd_xyz> ᴄLīςк H𝖊𝖗𝖊 </a>
-╰━━━━━━━━━━━━━━━➣"""
+╰━━━━━━━━━━━━━━━➣</b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
