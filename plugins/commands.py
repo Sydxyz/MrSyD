@@ -34,7 +34,7 @@ async def start(client, message):
                     InlineKeyboardButton('⌘ Bᴀᴄᴋ-Uᴩ Rᴇ𝚀ᴜᴇꜱᴛ', url='https://t.me/+0Zi1FC4ulo8zYzVl'),
                     InlineKeyboardButton('✰ Mᴀɪɴ Cʜᴀɴɴᴇʟ', url='https://t.me/bot_cracker')
                 ],[
-                    InlineKeyboardButton('✧ GʀᴏUᴩ', url='https://t.me/+0P4lGV1P6VcxYzll'),
+                    InlineKeyboardButton('✧ GʀᴏUᴩ', url='https://t.me/+DqCTrhaymr9mYWZl'),
                     InlineKeyboardButton('♤ BᴏΓꜱ', url='https://t.me/Bot_Cracker/17'),
                     InlineKeyboardButton('⚝ Mᴏᴠɪᴇꜱ 𝙲ʜᴀɴɴᴇʟ', url='https://t.me/Mod_MoviezX')
                 ],[
@@ -70,7 +70,7 @@ async def start(client, message):
                     InlineKeyboardButton('⌘ Bᴀᴄᴋ-Uᴩ Rᴇ𝚀ᴜᴇꜱᴛ', url='https://t.me/+0Zi1FC4ulo8zYzVl'),
                     InlineKeyboardButton('✰ Mᴀɪɴ Cʜᴀɴɴᴇʟ', url='https://t.me/bot_cracker')
                 ],[
-                    InlineKeyboardButton('✧ GʀᴏUᴩ', url='https://t.me/+0P4lGV1P6VcxYzll'),
+                    InlineKeyboardButton('✧ GʀᴏUᴩ', url='https://t.me/+DqCTrhaymr9mYWZl'),
                     InlineKeyboardButton('♤ BᴏΓꜱ', url='https://t.me/Bot_Cracker/17'),
                     InlineKeyboardButton('⚝ Mᴏᴠɪᴇꜱ 𝙲ʜᴀɴɴᴇʟ', url='https://t.me/Mod_MoviezX')
                 ],[
@@ -96,6 +96,10 @@ async def start(client, message):
                     "❆ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link
                 )
             ]
+            [
+                InlineKeyboardButton(
+                    "Tʀy Δɢᴀɪɴ", url='https://t.me/kkkkkk'
+                )
         ]
 
         if message.command[1] != "subscribe":
