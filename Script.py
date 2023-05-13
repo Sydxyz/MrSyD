@@ -6,12 +6,12 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/DQ_The_File_Donor_Updates'>Jᴏᴇʟ Kᴜʀɪᴀɴ Bɪᴊᴜ</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Syd_XyZ'>Mʀ 𝓼𝓨𝓭</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
-✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
+✯ DᴀᴛᴀBᴀsᴇ: <a href='https://t.me/+3-nuV_9INIg0MDY1'> Tɢ Bᴏᴛ</>
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://app.koyeb.com/'>Kᴏʏᴇʙ</a>
-✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
+✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2 [ Sᴛᴀʙʟᴇ ]</b>"""
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴍᴀᴅᴇ ʙy <a href=https://t.me/Syd_Xyz>𝕸𝖗 𝕤чᴅ 😇</a>.
@@ -31,10 +31,10 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /del - <code>ᴅᴇʟᴇᴛᴇ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴛᴇʀ ɪɴ ᴀ ᴄʜᴀᴛ</code>
 • /delall - <code>ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ꜰɪʟᴛᴇʀꜱ ɪɴ ᴀ ᴄʜᴀᴛ (ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</code>"""
 
-    SYDSETTINGS_TXT = """ʜᴇʟᴩ :<b>Sᴇᴛᴛɪɴɢꜱ</b>
--ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴩᴩᴏʀᴛꜱ /settings ᴏꜰ yᴏᴜʀ ɢʀᴏᴜᴩ
--yᴏᴜ ᴄᴀɴ ᴍᴀɴɢᴇ ɪᴛ ᴏɴ ʙᴏᴛʜ ɢʀᴏᴜᴩ ᴀɴᴅ ᴩᴍ
--ᴛʜᴇ ᴛʜɪɴɢꜱ yᴏᴜ ᴄᴀɴ ᴍᴀɴɢᴀɢᴇ ᴀʀᴇ ;
+    SYDSETTINGS_TXT = """ʜᴇʟᴩ: <b>Sᴇᴛᴛɪɴɢꜱ</b>
+- ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴩᴩᴏʀᴛꜱ /settings ᴏꜰ yᴏᴜʀ ɢʀᴏᴜᴩ
+- yᴏᴜ ᴄᴀɴ ᴍᴀɴɢᴇ ɪᴛ ᴏɴ ʙᴏᴛʜ ɢʀᴏᴜᴩ ᴀɴᴅ ᴩᴍ
+- ᴛʜᴇ ᴛʜɪɴɢꜱ yᴏᴜ ᴄᴀɴ ᴍᴀɴɢᴀɢᴇ ᴀʀᴇ ;
 ✧ Fɪʟᴛᴇʀ Bᴜᴛᴛᴏɴ
 ✧ Fɪʟᴇ Sᴇɴᴅ Mᴏᴅᴇ
 ✧ Pʀᴏᴛᴇᴄᴛ Cᴏɴᴛᴇɴᴛ
