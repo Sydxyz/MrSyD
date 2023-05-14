@@ -6,12 +6,15 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Syd_XyZ'>Mʀ 𝓼𝓨𝓭 😇</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Syd_XyZ'>𝄟≛⃝   ᴍ𝖗𓆩𝕾𝖄𝕯𓆪ꪾ𝄟≛</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://mrsydoo.blogspot.com/2023/05/you-cant-count-no-of-ads-ad-site.html'>Bʟᴏɢɢᴇʀ; TʜΞ Δᴅ SɪΓΞ 😊</a>
-✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
-✯ DᴀᴛᴀBᴀsᴇ: <a href='https://t.me/+3-nuV_9INIg0MDY1'> Tɢ Bᴏᴛ</a>
-✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://app.koyeb.com/'>Kᴏʏᴇʙ</a>
-✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2 [ Sᴛᴀʙʟᴇ ]</b>"""
+✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://t.me/+oej8cujHMFJhNmI9'>Pᴀᴄʜᴀ ᴍᴀʟᴀയാളം, Wɪᴛʜ ΞИGLISH,🤕</a>
+✯ DᴀᴛᴀBᴀsᴇ: <a href='https://t.me/+3-nuV_9INIg0MDY1'> Tɢ 🫥</a>
+✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/bot_Cracker'>BᴏΓ CΓΔCᴋΣRꜱ 😵‍💫</a>
+✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2 [ ≛⃝  Sᴛᴀʙʟᴇ ≛⃝  ]</b>"""
+
+
+
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴍᴀᴅᴇ ʙy <a href=https://t.me/Syd_Xyz>𝕸𝖗 𝕤чᴅ 😇</a>.
