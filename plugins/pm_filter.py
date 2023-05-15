@@ -908,6 +908,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                          callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{str(grp_id)}'),
                     InlineKeyboardButton('✔ Oɴ' if settings["is_shortlink"] else '✘ Oғғ',
                                          callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{str(grp_id)}')
+                ],
+                [
+                    InlineKeyboardButton('Bᴀᴄᴋ-Uᴩ', 
+                                         url='https://t.me/syd_xyz'),
+                    InlineKeyboardButton('Req',
+                                         url='https://t.me/syd_xyz')
                 ]
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
