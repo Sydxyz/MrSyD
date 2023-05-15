@@ -910,9 +910,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                          callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{str(grp_id)}')
                 ],
                 [
-                    InlineKeyboardButton('Bᴀᴄᴋ-Uᴩ', 
+                    InlineKeyboardButton('BᴀᴄҜ-Uᴩ', 
                                          url='https://t.me/nt_Backup/5'),
-                    InlineKeyboardButton('Req' if settings["start"] else ,
+                    InlineKeyboardButton('RΞＱᴇꜱΓ' ,
                                          url='https://t.me/+0Zi1FC4ulo8zYzVl')
                 ]
             ]
