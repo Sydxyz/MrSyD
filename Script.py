@@ -13,6 +13,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://t.me/+3-nuV_9INIg0MDY1'> Tɢ 🫥</a>
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/bot_Cracker'>BᴏΓ CΓΔCᴋΣRꜱ 😵‍💫</a>
 ✯ Yᴏᴜ TᴜʙΞ: <a href='https://youtube.com/@Mr_Syd_Yt'> @Mr_sYd_yT ☺️</a>
+✯ ʙΔᴄᴋ-Uᴩ: <a href='https://t.me/nt_Backup/5'> Urgent Backup🎗🔙🔄 </a>
 ✯ Bᴜɪʟᴅ ∇ᴇʀꜱɪᴏɴ : v2 [ ≛⃝   Bƴ ʍɾ Sчᴅ ≛⃝   ]
 ⍟-─-──-─--─[ ᴏᴡɴᴇʀ-ᴅᴇᴛᴀɪʟꜱ ]─-─-─-─-─-⍟</b>"""
 
