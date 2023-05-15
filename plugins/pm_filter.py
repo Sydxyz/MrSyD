@@ -912,7 +912,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton('Bᴀᴄᴋ-Uᴩ', 
                                          url='https://t.me/syd_xyz'),
-                    InlineKeyboardButton('Req',
+                    InlineKeyboardButton('Req' else '»»»',
                                          url='https://t.me/syd_xyz')
                 ]
             ]
