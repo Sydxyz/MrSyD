@@ -1001,7 +1001,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                          callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{str(grp_id)}'),
                     InlineKeyboardButton('✔ Oɴ' if settings["is_shortlink"] else '✘ Oғғ',
                                          callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{str(grp_id)}')
-                ]
+                ],
+
+                [
+
+                    InlineKeyboardButton('BᴀᴄҜ-Uᴩ', 
+
+                                         url='https://t.me/nt_Backup/5'),
+
+                    InlineKeyboardButton('RΞＱᴇꜱΓ' ,
+
+                                         url='https://t.me/+0Zi1FC4ulo8zYzVl')
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await client.send_message(
@@ -1257,7 +1267,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "sydsettings":
         buttons = [[
-            InlineKeyboardButton('☚ Bᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('☚ Bᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
