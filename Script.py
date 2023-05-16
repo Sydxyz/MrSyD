@@ -7,14 +7,14 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b> ⍟-─-──-─--─[ ʙᴏᴛ-ᴅᴇᴛΔɪʟꜱ ]─-─-─-─-─-⍟
 ✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Syd_XyZ'>𝄟≛⃝   ᴍ𝖗𓆩𝕾𝖄𝕯𓆪ꪾ𝄟≛</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Syd_XyZ'>≛ ᴍ𝖗𓆩𝕾𝖄𝕯𓆪ꪾ</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://mrsydoo.blogspot.com/2023/05/you-cant-count-no-of-ads-ad-site.html'>Bʟᴏɢɢᴇʀ; TʜΞ Δᴅ SɪΓΞ 😊</a>
-✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://t.me/+oej8cujHMFJhNmI9'>Pᴀᴄʜᴀ ᴍᴀʟᴀയാളം, Wɪᴛʜ ΞИGLISH,🤕</a>
+✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://t.me/+oej8cujHMFJhNmI9'>Pᴀᴄʜᴀ ᴍᴀʟᴀയാളം,Wɪᴛʜ ΞИGLISH🤕</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://t.me/+3-nuV_9INIg0MDY1'> Tɢ 🫥</a>
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/bot_Cracker'>BᴏΓ CΓΔCᴋΣRꜱ 😵‍💫</a>
 ✯ Yᴏᴜ TᴜʙΞ: <a href='https://youtube.com/@Mr_Syd_Yt'> @Mr_sYd_yT ☺️</a>
-✯ ʙΔᴄᴋ-Uᴩ: <a href='https://t.me/nt_Backup/5'> Urgent Backup🎗🔙🔄 </a>
-✯ Bᴜɪʟᴅ ∇ᴇʀꜱɪᴏɴ : v2 [ ≛⃝   Bƴ ʍɾ Sчᴅ ≛⃝   ]
+✯ ʙΔᴄᴋ-Uᴩ: <a href='https://t.me/nt_Backup/5'> UʀɢΞɴᴛ BΔᴄᴋ-Uᴩ🎗🔙🔄 </a>
+✯ Bᴜɪʟᴅ ∇ᴇʀꜱɪᴏɴ : v2 [ ≛ Bƴ ʍɾ Sчᴅ ≛ ]
 ⍟-─-──-─--─[ ᴏᴡɴᴇʀ-ᴅᴇᴛᴀɪʟꜱ ]─-─-─-─-─-⍟</b>"""
 
 
