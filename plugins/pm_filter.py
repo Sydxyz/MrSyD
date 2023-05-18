@@ -1012,6 +1012,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('RΞＱᴇꜱΓ' ,
 
                                          url='https://t.me/+0Zi1FC4ulo8zYzVl')
+                 ]
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await client.send_message(
