@@ -1402,11 +1402,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.ADMIN_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
+        if query.from_user.id in ADMINS:
+            await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.ADMIN_TXT, enums.ParseMode.HTML), reply_markup=reply_markup)
+        else:
+            await query.answer("Your Not Authorizer ⚠️", show_alert=True)
+            )
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('☚ Bᴀᴄᴋ', callback_data='help'),
