@@ -70,7 +70,7 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>Yᴏᴜʀ ᴍᴇssᴀɢᴇ ʜᴀs ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ᴍʏ ᴍᴏᴅᴇʀᴀᴛᴏʀs !\n\n ⚠️»NᴏTΣ;\n </b> ◑ᴛʜᴇ ʀᴇqᴜᴇꜱᴛ ᴡɪʟʟ ʙᴇ ᴀᴄᴄᴇᴩᴛᴇᴅ, Vᴇʀy ʀᴀʀᴇʟy. \n◑ Iᴛꜱ ʙᴇᴛᴛᴇʀ ᴛᴏ ᴊᴏɪɴ ᴀɴᴅ ʀᴇqᴜᴇꜱᴛ ᴏɴ @malayalam_requester_bot, @MrMovies_Group . Nᴏᴛʜɪɴɢ ɪꜱ ɢᴏɴɴᴀ ʜᴀᴩᴩᴇɴ ᴛᴏ yΩᴜ, Ξxᴇᴩᴛ ɢᴇᴛᴛɪɴɢ ꜰɪʟᴇ 😁")
+    await message.reply_text("<b>Yᴏᴜʀ ᴍᴇssᴀɢᴇ ʜᴀs ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ᴍʏ ᴍᴏᴅᴇʀᴀᴛᴏʀs !\n\n ⚠️»NᴏTΣ;\n </b> ◑ ᴛʜᴇ ʀᴇqᴜᴇꜱᴛ ᴡɪʟʟ ʙᴇ ᴀᴄᴄᴇᴩᴛᴇᴅ, Vᴇʀy ʀᴀʀᴇʟy. \n◑ Iᴛꜱ ʙᴇᴛᴛᴇʀ ᴛᴏ ᴊᴏɪɴ ᴀɴᴅ ʀᴇqᴜᴇꜱᴛ ᴏɴ @malayalam_requester_bot, @MrMovies_Group . Nᴏᴛʜɪɴɢ ɪꜱ ɢᴏɴɴᴀ ʜᴀᴩᴩᴇɴ ᴛᴏ yΩᴜ, Ξxᴇᴩᴛ ɢᴇᴛᴛɪɴɢ ꜰɪʟᴇ 😁 \n ")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
@@ -367,17 +367,17 @@ async def language_check(bot, query):
             try:
                 if settings['max_btn']:
                     btn.append(
-                        [InlineKeyboardButton("𝐏𝐀𝐆𝐄", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ➪",callback_data=f"next_{req}_{key}_{offset}")]
+                        [InlineKeyboardButton("PΔGΞ", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ➪",callback_data=f"next_{req}_{key}_{offset}")]
                     )
 
                 else:
                     btn.append(
-                        [InlineKeyboardButton("𝐏𝐀𝐆𝐄", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/int(MAX_B_TN))}",callback_data="pages"), InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ➪",callback_data=f"next_{req}_{key}_{offset}")]
+                        [InlineKeyboardButton("PѦGє", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/int(MAX_B_TN))}",callback_data="pages"), InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ➪",callback_data=f"next_{req}_{key}_{offset}")]
                     )
             except KeyError:
                 await save_group_settings(query.message.chat.id, 'max_btn', True)
                 btn.append(
-                    [InlineKeyboardButton("𝐏𝐀𝐆𝐄", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ➪",callback_data=f"next_{req}_{key}_{offset}")]
+                    [InlineKeyboardButton("рคg", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ➪",callback_data=f"next_{req}_{key}_{offset}")]
                 )
         else:
             btn.append(
