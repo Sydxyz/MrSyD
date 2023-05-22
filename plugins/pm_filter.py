@@ -1246,7 +1246,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('SЦᴩᴩᴏʀᴛ ᴜS', url='https://t.me/+w2ea5FcJeUpmMzFl'),
+            InlineKeyboardButton('❀ SЦᴩᴩᴏʀᴛ ᴜS ❀', url='https://t.me/+w2ea5FcJeUpmMzFl'),
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
         ],[
             InlineKeyboardButton('DᴀᴛΔʙᴀꜱΞ', url='https://t.me/+3-nuV_9INIg0MDY1'),
@@ -1257,7 +1257,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ],[
-            InlineKeyboardButton('ѕhαrє ᴛʜᴇ  БᴏΓ', url='https://t.me/share/url?url=https://t.me/Pro_Moviez_Bot')
+            InlineKeyboardButton('ѕhαrє ᴛʜᴇ  БᴏΓ', url='https://t.me/share/url?url=url=http://t.me/{temp.U_NAME}')
+
+                ],[')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
