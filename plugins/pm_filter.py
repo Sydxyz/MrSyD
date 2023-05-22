@@ -1256,6 +1256,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+        ],[
+            InlineKeyboardButton('ѕhαrє ᴛʜᴇ  БᴏΓ', url='https://t.me/share/url?url=https://t.me/Pro_Moviez_Bot')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
