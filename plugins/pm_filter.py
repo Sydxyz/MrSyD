@@ -1252,12 +1252,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('DᴀᴛΔʙᴀꜱΞ', url='https://t.me/+3-nuV_9INIg0MDY1'),
             InlineKeyboardButton('Dⓞ︎ɴᴀᴛᴇ', url='https://t.me/syd_xyz')
         ],[
-            InlineKeyboardButton('CʀΞᴀᴛᴇ Δ βᴏᴛ Lɪᴋᴇ Պᴇ 🫥', callback_data='source')
+            InlineKeyboardButton('🫥 CʀΞᴀᴛᴇ Δ βᴏᴛ Lɪᴋᴇ Պᴇ 🫥', callback_data='source')
         ],[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('⌂ Hᴏᴍᴇ ⌂', callback_data='start'),
+            InlineKeyboardButton('⛒ Cʟᴏsᴇ ⛒', callback_data='close_data')
         ],[
-            InlineKeyboardButton('ѕhαrє ᴛʜᴇ  БᴏΓ', url='https://t.me/share/url?url=url=http://t.me/{temp.U_NAME}')
+            InlineKeyboardButton('⬈ ⬙ ⬈ ѕhαrє ๓℮ ⬈ ⬙ ⬈', url='https://t.me/share/url?url=url=http://t.me/{temp.U_NAME}')
 
                 ],[')
         ]]
