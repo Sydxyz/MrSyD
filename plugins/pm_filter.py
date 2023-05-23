@@ -1322,6 +1322,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "button":
         buttons = [[
+            InlineKeyboardButton(' Jᴏɪɴ Oᴜʀ CʜΔɴɴᴇʟ ', url='https://t.me/Mod_MoviezX')
+        ],[
+            InlineKeyboardButton('Hᴇʟр', callback_data='testalertsyd')
+        ],[
             InlineKeyboardButton('☚ Bᴀᴄᴋ', callback_data='manuelfilter')
         ]]
         await client.edit_message_media(
@@ -1397,7 +1401,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    
+    elif query.data =="testalertsyd":
+        await query.answer("h",show_alert=True)
     elif query.data == "admin":
         buttons = [[
             InlineKeyboardButton('☚ Bᴀᴄᴋ', callback_data='extra')
@@ -1411,7 +1416,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if query.from_user.id in ADMINS:
             await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.ADMIN_TXT, enums.ParseMode.HTML), reply_markup=reply_markup)
         else:
-            await query.answer("Your Not Authorizer ⚠️", show_alert=True)
+            await query.answer("Bʀᴏ Sᴏʀʀy, Yᴏᴜ Cᴀɴ'ᴛ Cʜᴇᴄᴋ Iᴛ. Iᴛꜱ Only Fᴏʀ ᴍy Δᴅᴍɪɴ. Iꜰ Yᴏᴜ Aʀᴇ Rᴇᴀʟʟy Iɴᴛʀᴇꜱᴛᴇᴅ, Tʜᴇɴ Cʟɪᴄᴋ ᴏИ 'Hᴇʀᴇ //'  ", show_alert=True)
             )
     elif query.data == "stats":
         buttons = [[
