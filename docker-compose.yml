@@ -26,3 +26,5 @@ services:
       DATABASE_URI: mongodb+srv://syd:syz@cluster0.yvubuqh.mongodb.net/?retryWrites=true&w=majority
 
       HEROKU_API_KEY: $HEROKU_API_KEY
+      
+      AUTH_CHANNEL: -1001662248446
