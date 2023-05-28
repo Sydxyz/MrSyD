@@ -5,6 +5,7 @@ from imdb import Cinemagoer
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import enums
+from telegram import bot, ChatMember
 from typing import Union
 from Script import script
 import pytz
