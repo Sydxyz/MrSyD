@@ -7,7 +7,6 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import enums
 from typing import Union
 from Script import script
-from plugins.commands import Invite_link
 import pytz
 import random 
 import re
