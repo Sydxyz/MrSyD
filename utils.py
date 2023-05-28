@@ -5,7 +5,6 @@ from imdb import Cinemagoer
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import enums
-from telegram import bot, ChatMember
 from typing import Union
 from Script import script
 import pytz
@@ -63,10 +62,10 @@ async def is_subscribed(bot, query=None, userid=None):
     else:
         if user.status != [
             enums.ChatMemberStatus.BANNED,
-            enums.ChatMember.MEMBER,
-            enums.ChatMember.RESTRICTED,
-            enums.ChatMember.ADMINISTRATOR,
-            enums.ChatMember.CREATOR
+            enums.ChatMemberStatus.MEMBER,
+            enums.ChatMemberStatus.RESTRICTED,
+            enums.ChatMemberStatus.ADMINISTRATOR,
+            enums.ChatMemberStatus.CREATOR
         ]:
             return True
 
