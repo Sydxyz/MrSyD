@@ -62,10 +62,8 @@ async def is_subscribed(bot, query=None, userid=None):
     else:
         if user.status != [
             enums.ChatMemberStatus.BANNED,
-            enums.ChatMemberStatus.MEMBER,
-            enums.ChatMemberStatus.RESTRICTED,
-            enums.ChatMemberStatus.ADMINISTRATOR,
-            enums.ChatMemberStatus.CREATOR
+            enums.ChatMemberStatus.MEMBER
+            enums.ChatMemberStatus.ADMINISTRATOR
         ]:
             return True
 
