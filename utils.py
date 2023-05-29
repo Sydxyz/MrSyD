@@ -67,7 +67,7 @@ async def is_subscribed(bot, query=None, userid=None):
             enums.ChatMemberStatus.KICKED,
             enums.ChatMemberStatus.LEFT
         ]:
-            return True
+            return False
 
     return False
 
