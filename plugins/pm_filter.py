@@ -1296,7 +1296,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-            text=script.SOURCE_TXT.format(query.from_user.id, query.from_user.mention),
+            text=script.SOURCE_TXT.format(query.from_user.id, query.from_user.last_name),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
