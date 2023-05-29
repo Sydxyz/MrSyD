@@ -1253,7 +1253,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⌂ Hᴏᴍᴇ ⌂', callback_data='start'),
             InlineKeyboardButton('⛒ Cʟᴏsᴇ ⛒', callback_data='close_data')
         ],[
-            InlineKeyboardButton('⬈ ⬙ ⬈ ѕhαrє ๓℮ ⬈ ⬙ ⬈', url='https://t.me/share/url?url=url=http://t.me/{temp.U_NAME}')
+            InlineKeyboardButton('⬈ ⬙ ⬈ ѕhαrє ๓℮ ⬈ ⬙ ⬈', url='https://t.me/share/url?url=http://t.me/ jksikkkskk')
 
          
         ]]
