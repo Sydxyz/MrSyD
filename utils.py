@@ -50,25 +50,6 @@ class temp(object):
     KEYWORD = {}
 
 async def is_subscribed(bot, query=None, userid=None):
-    try:
-        if userid == None and query != None:
-            user = await bot.chat_invite_link(AUTH_CHANNEL, query.from_user.id)
-        else:
-            user = await bot.chat_invite_link(AUTH_CHANNEL, int(userid))
-    except UserNotParticipant:
-        pass
-    except Exception as e:
-        logger.exception(e)
-    else:
-        if user.status != [
-            enums.ChatMemberStatus.BANNED,
-            enums.ChatMemberStatus.MEMBER,
-            enums.ChatMemberStatus.REQUESTED,
-            enums.ChatMemberStatus.KICKED
-        ]:
-            return TRUE
-
-    return False
 
 async def get_poster(query, bulk=False, id=False, file=None):
     if not id:
