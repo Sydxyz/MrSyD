@@ -49,7 +49,7 @@ class temp(object):
     SEND_ALL_TEMP = {}
     KEYWORD = {}
 
-async def is_subscribed(bot, query=None, userid=None):
+
 
 async def get_poster(query, bulk=False, id=False, file=None):
     if not id:
