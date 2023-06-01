@@ -1,6 +1,7 @@
+
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid, ChatAdminRequired
-from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTLINK_URL, SHORTLINK_API, LOG_CHANNEL, GRP_LNK, CHNL_LNK, CUSTOM_FILE_CAPTION, IS_VERIFY
+from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTLINK_URL, SHORTLINK_API, LOG_CHANNEL, GRP_LNK, CHNL_LNK, CUSTOM_FILE_CAPTION, IS_VERIFY, VERIFY2_URL, VERIFY2_API
 from imdb import Cinemagoer 
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
@@ -49,7 +50,21 @@ class temp(object):
     SEND_ALL_TEMP = {}
     KEYWORD = {}
 
+async def is_subscribed(bot, query=None, userid=None):
+    try:
+        if userid == None and query != None:
+            user = await bot.get_chat_member(AUTH_CHANNEL, query.from_user.id)
+        else:
+            user = await bot.get_chat_member(AUTH_CHANNEL, int(userid))
+    except UserNotParticipant:
+        pass
+    except Exception as e:
+        logger.exception(e)
+    else:
+        if user.status != enums.ChatMemberStatus.BANNED:
+            return True
 
+    return False
 
 async def get_poster(query, bulk=False, id=False, file=None):
     if not id:
