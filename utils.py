@@ -54,9 +54,9 @@ class temp(object):
 async def is_subscribed(bot, query=None, userid=None):
     try:
         if userid == None and query != None:
-            user = await bot.getChatInviteImporters(AUTH_CHANNEL, query.from_user.id)
+            user = await bot.recent_requesters(AUTH_CHANNEL, query.from_user.id)
         else:
-            user = await bot.get_chat_member(AUTH_CHANNEL, int(userid))
+            user = await bot.recent_requesters(AUTH_CHANNEL, int(userid))
     except UserNotParticipant:
         pass
     except Exception as e:
