@@ -1,5 +1,6 @@
 
 import logging
+import html
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid, ChatAdminRequired
 
 from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTLINK_URL, SHORTLINK_API, LOG_CHANNEL, GRP_LNK, CHNL_LNK, CUSTOM_FILE_CAPTION, IS_VERIFY, VERIFY2_URL, VERIFY2_API
@@ -51,21 +52,42 @@ class temp(object):
     SEND_ALL_TEMP = {}
     KEYWORD = {}
 
-async def is_subscribed(bot, query=None, userid=None):
-    try:
-        if userid == None and query != None:
-            user = await bot.recent_requesters(AUTH_CHANNEL, query.from_user.id)
-        else:
-            user = await bot.recent_requesters(AUTH_CHANNEL, int(userid))
-    except UserNotParticipant:
-        pass
-    except Exception as e:
-        logger.exception(e)
-    else:
-        if user.status != enums.ChatMemberStatus.BANNED:
-            return True
+async def is_subscribed(bot, query=None, u
+function verifyRequest() {
 
-    return False
+            var chatId = "AUTH_CHANNEL";
+
+            
+
+            axios.get("https://api.telegram.org/bot5445924111:AAF7c3JFB-KQLOx_fYzzz0bJ3L2JXaYrT6o/getChatMember?chat_id=" + chatId + "&user_id=<USER_ID>")
+
+                .then(function (response) {
+
+                    if (response.data.result.status === "left" || response.data.result.status === "kicked") {
+
+                        console.log("User has not sent a request to join the channel.");
+
+                    } else if (response.data.result.status === "member"  response.data.result.status === "creator"  response.data.result.status === "administrator") {
+
+                        console.log("User has sent a request to join the channel.");
+
+                    } else
+
+pass {
+
+                        console.log("UserNotParticipant");
+
+                    }
+
+                })
+
+                .catch(function (error) {
+
+                    console.log(error);
+
+                });
+
+        }
 
 async def get_poster(query, bulk=False, id=False, file=None):
     if not id:
